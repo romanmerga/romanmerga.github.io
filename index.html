@@ -1,15 +1,35 @@
 
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-110">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.87.0">
-    <title>Roman Merga</title>
+		<title>Roman Merga</title>
 
+		    <!-- THIS LINE -->
+				<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+		<style>
+		.container {
+			position: relative;
+		}
+
+		.topleft {
+			position: absolute;
+			top: 4px;
+			left: 8px;
+			font-size: 18px;
+		}
+
+	</style>
+
+
+
+
 
     <link href="bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,14 +53,14 @@
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-dark bg-light">
+  <body class="d-flex h-98 text-topleft text-light bg-dark">
 
 <div class="cover-container d-flex w-100 h-100 py-3 px-1 mx-auto flex-column">
   <header class="mb-auto">
     <div>
       <h3 class="float-md-start mb-0">Roman Merga</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#Home">Home</a>
+  		<a class="nav-link active" aria-current="page"  data-bs-toggle="tab" href="#Home">Home</a>
 		    <a class="nav-link" data-bs-toggle="tab" href="#CV">CV</a></a>
         <a class="nav-link" data-bs-toggle="tab" href="#Research">Research</a></a>
 				<a class="nav-link" data-bs-toggle="tab" href="#Teaching">Teaching</a></a>
@@ -50,27 +70,55 @@
 
   <main class="px-1">
     <div class="tab-content">
+      <div class="tab-pane active" class="text-topleft" id="Home">
+   <br>
+   <br>
+				<div class="container">
+  <div class="row">
+    <div class="col">
+			        <img id="profile-pic" src="files/merga.jpg" height="300" style="border-radius: 75% " />
+			        <div class="lead my-3">
+								  </div>
 
-      <div class="tab-pane active" id="Home">
-        <img id="profile-pic" src="files/merga.jpg" height="200" style="border-radius: 50% " />
-        <div class="lead my-3">
-            <h4>Econ PhD Candidate</h4>
-            <h4>University of Rochester</h4>
-        </div>
-        <p class="lead mt-4">
-          <a href="mailto:merga.roman@gmail.com" class="btn btn-outline-light py-1 my-1">merga.roman@gmail.com</a>
-          <a href="./files/CV_roman.pdf" class="btn btn-outline-light py-1 my-1" target="_blank">CV</a>
-        </p>
+			        <div>
+			        <p class="lead mt-4">
+			          <a href="mailto:rmerga@ur.rochester.edu" class="btn btn-outline-light py-1 my-1">rmerga@ur.rochester.edu</a>
+			          <a href="./files/CV_roman.pdf" class="btn btn-outline-light py-1 my-1" target="_blank">CV</a>
+			        </p>
+			      	</div>
+    </div>
+    <div class="col">
+			<div class="tab-pane active" class="text-right" id="Home">
+			 <p class="lead mt-4">
+						I am a Ph.D. candidate in Economics at the University of Rochester.
+					   <br>
+						    <br>
+						I am interested in International macroeconomics, international trade and development.
+					   <br>
+						    <br>
+					 I will be on the 2021/22 Job Market.
+									 </p>
+				 </div>
 
-      </div>
+    </div>
+  </div>
 
-			<div class="tab-pane" id="Teaching">
+				 </div>
+	</div>
+
+			<div class="tab-pane" id="Teaching" class="text-center">
+				<br>
+				<br>
+				<br>
 			<a href="./files/Evaluation.pdf" class="btn btn-outline-light py-1 my-1" target="_blank">Evaluation</a>
 
-		  </div>
+		</div>
 
 
 	  <div class="tab-pane" id="CV">
+			<br>
+			<br>
+			<br>
 		<a href="./files/CV_roman.pdf" class="btn btn-outline-light py-1 my-1" target="_blank">CV</a>
 
 	  </div>
@@ -78,24 +126,89 @@
 
 
       <div class="tab-pane" id="Research">
-          <div  style="margin-top:5vh; text-align:left;">
+				<div  style="margin-top:6vh; text-align:left;">
+					<div>
+						<p>
+						<h3> Working papers <h3>
+						</p>
+					</div>
 
 
-
-              <div class="card text-dark bg-light shadow px-0 mb-4">
-                  <div class="card-body">
-                    <div style="text-align:left;">
-                        <p> <b>International Trade, Volatility, and Income Differences</b></p><br>
-
-							 Poor countries export less than rich countries. Furthermore, rich countries have more exporters per capita, which are larger and less likely to stop exporting. I show that these differences in trade between rich and poor countries are the consequence of poorer countries being more volatile at both the macro and the microeconomic levels. At the cross-country level, I find that 40% of the relationship between trade wedges and GDP per capita is due to volatility. Using Colombian firm-level data, I show that exporters facing higher volatility export less. Additionally, new exporters facing more volatility grow at slower rates and end up being smaller. These effects are even stronger in sectors that face higher markup elasticity. Motivated by these firm-level facts, I develop a dynamic model of international trade with endogenous mark-ups. I estimate the model to match Colombian data and the causal estimates of how mark-ups vary with firm relative size. I show that the model is able to capture the relation between exports and volatility in the data to show the relevance of these micro-level mechanisms to explain the aggregate relationships in the data. I then show that a 1% increase in micro-volatility in the dynamic model maps to a 1.15% increase in the exporter iceberg cost estimated by a standard Melitz model, explaining why estimates of iceberg cost by static models are higher in developing countries.
-
-
-                        </div>
+							<p> <h5>International Trade, Volatility, and Income Differences</h5></p><br>
+								 <div class="card-body">
+							 Poor countries export less than rich countries. Furthermore, rich countries have more exporters per capita, which are larger and less
+							 likely to stop exporting. I show that these differences in trade between rich and poor countries are the consequence of poorer
+							 countries being more volatile at both the macro and the microeconomic levels. At the cross-country level, I find that 40% of
+							 the relationship between trade wedges and GDP per capita is due to volatility.
+							 Using Colombian firm-level data, I show that exporters facing higher volatility export less.
+							Additionally, new exporters facing more volatility grow at slower rates and end up being smaller.
+							These effects are even stronger in sectors that face higher markup elasticity. Motivated by these firm-level facts,
+							I develop a dynamic model of international trade with endogenous mark-ups. I estimate the model to match Colombian data
+							and the causal estimates of how mark-ups vary with firm relative size. I show that the model is able to capture the
+							 relation between exports and volatility in the data to show the relevance of these micro-level mechanisms
+							to explain the aggregate relationships in the data. I then show that a 1% increase in micro-volatility
+							in the dynamic model maps to a 1.15% increase in the exporter iceberg cost estimated by a standard Melitz
+							model, explaining why estimates of iceberg cost by static models are higher in developing countries.
                   </div>
-              </div>
+								</div>
 
+												<p> <h5>Real Exchange Rate Uncertainty Matters.<br> Trade, Shipping Lags and Default </h5></p><br>
+												<div class="card text-light bg-dark shadow px-0 mb-4">
+												  <div class="card-body">
+														Using a new time-varying measure of real exchange rate uncertainty, I show that there is a negative relation between real exchange rate
+														uncertainty and international trade at the aggregate level. A one standard deviation increase in the real exchange rate uncertainty
+														is associated with a 5% drop in total trade over GDP. Then, using Colombian firm-level data, I document 3 firm-level facts consistent
+														with the existence of a precautionary margin in international trade. When real exchange rate uncertainty increases exporters, 1)
+														 reduce their export intensity; 2) are more likely to stop exporting and 3) less likely to start exporting to new markets.
+														Additionally, I find that this behavior is mostly explained by those exporters paying higher interest rates and facing higher
+														 shipping lags. These results contrast with the predictions from standard sunk cost models of international trade.
+														As a consequence, these models will under-estimate the effects that real exchange uncertainty has on international trade flows.
+															To overcome this issue, I incorporate firm-level debt default and international shipping lags into a standard dynamic model of trade.
+														 In the new model, an increase in the real exchange rate uncertainty increases the probability for exporters to end up in a financially vulnerable situation. To hedge against this risk, exporters respond by increasing mark-ups or quitting the export market, generating a drop in aggregate exports through both the intensive and the extensive margin of trade. Once this extension is calibrated to match firm-level Colombian data, it predicts that a one standard deviation increase in the real exchange rate uncertainty generates a drop in total exports of around 6%.
+														</div>
+													</div>
+
+														<p> <h5>Fighting income inequality with international trade.</h5> (with Victor Hernandez) [Available upon request] </p> <br>
+														<div class="card text-light bg-dark shadow px-0 mb-4">
+														  <div class="card-body">
+																How does international trade affect the wage distribution across workers? We use detailed
+															 employer-employee covering 1987 to 2004 to answer this question.  Using a new instrumental
+															 variable approach to disentangle the effects that trade openness has over the distribution
+														  of income and wages, we document that an increase in local trade exposure reduces wage inequality.
+														  Furthermore, we show that this result is associated with changes happening at the within-industry
+															and within-firm levels. These changes lead to increases in the relative demand for low-wage and
+														 low-skill type of worker. At the within-industry level, we show that trade openness reallocates workers
+														 towards small firms and low-skilled jobs. At the within-firm level, we find that small firms increase
+															their labor intensity and the average amount of workers, while larger firms reduce it in response to
+															 changes in trade openness. We argue that these firm-level responses are the root of the increase in
+															the relative demand for low-wage workers.
+																</div>
+															</div>
+                  				</div>
+							<div>
+								<p>
+								<h3> Selected work in progress <h3>
+								</p>
+								<p> <h5>Pricing to Clients and the Pass-Through of Shocks </h5> (with Armen Khederlarian) </p><br>
+									<div class="card text-light bg-dark shadow px-0 mb-4">
+									Most of the studies on exporter's pricing behavior focus on discrimination across markets.
+									 Less attention has been paid to how firms price discriminate across their portfolio of customers.
+									 Using novel firm-to-firm transaction level data from Colombian exports, we document three facts.
+								 	First, price dispersion at the seller-product level is non-negligible and a large fraction of it is
+									 accounted for by within destination variation. Second, clients with larger shares in the exporters'
+								  past revenues pay lower prices and their prices are adjusted more frequently. Third, prices paid by
+									the largest clients are less sensitive to fluctuations in the exchange rate, especially when the currency
+									 appreciates. These results illustrate that firms actively price discriminate across
+									 their buyers and offer more favorable terms to their largest clients. We rationalize these
+								  facts with a model of heterogeneous buyers and sellers, costly search, random matching and menu costs.
+									<div class="card-body">
+									</div>
+									</div>
+							</div>
 
           </div>
+
+
       </div>
   </main>
 
